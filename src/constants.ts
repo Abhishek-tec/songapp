@@ -1,0 +1,60 @@
+import {Track} from 'react-native-track-player';
+
+export const playListData: Track[] = [
+  {
+    id: 1,
+    titleL: 'RAM SIYA RAM',
+    artist: 'Sachet Tandon, parampara Tandon',
+    album: 'Adipurush(2023)',
+    artwork: 'https://pagalnew.com/songs/ram-siya-ram-adipurush.html',
+    url: require('./assets/Audio/one.mp3'),
+  },
+  {
+    id: 2,
+    title: 'Beliya',
+    artist: 'Gurnam Bhullar',
+    album: 'Lekh',
+    artwork: 'https://cdnsong.com',
+    url: require('./assets/Audio/two.mp3'),
+  },
+  {
+    id: 3,
+    title: 'Kesariya',
+    artist: 'Arijit Singh',
+    album: 'Brahmastra-2022',
+    artwork: 'https://pagalnew.com/songs/kesariya-brahmastra.html',
+    url: require('./assets/Audio/three.mp3'),
+  },
+  {
+    id: 4,
+    title: 'Makhna-Drive',
+    artist: 'Asees Kaur,Tanishk Bagchi,Sushant Singh Rajput',
+    album: 'New Indianpop',
+    artwork: 'https://wynk.in/music/song/makhna/zm_INZ031406231#install-app',
+    url: require('./assets/Audio/four.mp3'),
+  },
+  {
+    id: 5,
+    title: 'Zaalima',
+    artist: 'Arijit Singh, Harshdeep Kaur',
+    album: 'Raees',
+    artwork: 'https://pagalnew.com/songs/zaalima4-raees.html',
+    url: require('./assets/Audio/five.mp3'),
+  },
+  {
+    id: 6,
+    title: 'Halka Halka',
+    artist: '',
+    album: 'Raees',
+    artwork: 'https://pagalnew.com/songs/halka-halka4-raees.html',
+    url: require('./assets/Audio/six.mp3'),
+  },
+  {
+    id: 7,
+    title: 'Rab Manneya',
+    artist: 'Lakhwinder Wadali,Neeti Mohan',
+    album: 'Bollywood Movie Song 2021',
+    artwork: 'https://pagalworld.com.pe/rabb-manneya-mp3-song-download.html',
+    url: require('./assets/Audio/seven.mp3'),
+  },
+];
